@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -g -Wall
+CFLAGS = -g -Wall -lcrypto
 SRC_DIR = src
 BUILD_DIR = bin
 
