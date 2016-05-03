@@ -7,4 +7,4 @@ c1: $(SRC_DIR)/set1/c1.c
 	$(CC) $(CFLAGS) $(SRC_DIR)/set1/c1.c -o $(BUILD_DIR)/set1/c1
 
 clean:
-	$(RM) bin/*
+	rm -rf $(BUILD_DIR)/*

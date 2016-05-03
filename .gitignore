@@ -66,6 +66,3 @@
 
 # Debug files
 *.dSYM/
-
-# Build directories
-bin/*
